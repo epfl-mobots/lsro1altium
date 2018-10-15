@@ -1,0 +1,265 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\VHD-Datas\Altium\LSRO1Altium\LSRO1Altium.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=1
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=LSRO1Altium.mdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=..\LSRO1Altium
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=1
+SchemaName=
+LastFocusedTable=OptoComponents
+[Table1]
+SchemaName=
+TableName=Audio
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}'
+[Table2]
+SchemaName=
+TableName=Capacitors
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Size] = '{Size}' AND [Preference] = '{Preference}'
+[Table3]
+SchemaName=
+TableName=ClockOscillatorQuartz
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+[Table4]
+SchemaName=
+TableName=ComponentsOrientations
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=ComponentsTypes
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table6]
+SchemaName=
+TableName=Connectors
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+[Table7]
+SchemaName=
+TableName=CopperComponents
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table8]
+SchemaName=
+TableName=Diodes
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+[Table9]
+SchemaName=
+TableName=ICs
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+[Table10]
+SchemaName=
+TableName=Inductors
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Size] = '{Size}' AND [Preference] = '{Preference}'
+[Table11]
+SchemaName=
+TableName=MODULEs
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table12]
+SchemaName=
+TableName=OptoComponents
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=106|Footprint L0=121|Footprint M0=140|Footprint N0=125|Description0=379|Comment0=92|Size0=82|Preference0=77|Footprint Acort0=102|ComponentLink1URL0=597|ComponentLink1Description0=170|Supplier0=66|Supplier Nr0=104|ComponentLink2Description0=170|ComponentLink2URL0=629|Manufacturer0=93|Manufacturer Nr0=108|ComponentLink3Description0=170|ComponentLink3URL0=131|Quant_10=67|Price_10=58|Quant_20=67|Price_20=58|Quant_30=67|Price_30=58|Quant_40=67|Price_40=58|Quant_50=67|Price_50=58|Quant_60=67|Price_60=58|Currentie0=71|ROHS0=53|DateLastUpdate0=116
+[Table13]
+SchemaName=
+TableName=Paste Errors
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table14]
+SchemaName=
+TableName=Resistors
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Size] = '{Size}' AND [Preference] = '{Preference}'
+[Table15]
+SchemaName=
+TableName=Switchs
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table16]
+SchemaName=
+TableName=TransMOSFET
+Enabled=True
+UserWhere=1
+UserWhereText=[Comment] = '{Comment}' AND [Preference] = '{Preference}'
+[FieldMap1]
+Options=FieldName=Audio.Description|TableNameOnly=Audio|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Audio.Library Ref|TableNameOnly=Audio|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Audio.Footprint L|TableNameOnly=Audio|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Audio.Footprint M|TableNameOnly=Audio|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Audio.Footprint N|TableNameOnly=Audio|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Capacitors.Library Ref|TableNameOnly=Capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Capacitors.Footprint L|TableNameOnly=Capacitors|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Capacitors.Footprint M|TableNameOnly=Capacitors|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Capacitors.Footprint N|TableNameOnly=Capacitors|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Capacitors.Description|TableNameOnly=Capacitors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=ClockOscillatorQuartz.Description|TableNameOnly=ClockOscillatorQuartz|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=ClockOscillatorQuartz.Library Ref|TableNameOnly=ClockOscillatorQuartz|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=ClockOscillatorQuartz.Footprint L|TableNameOnly=ClockOscillatorQuartz|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=ClockOscillatorQuartz.Footprint M|TableNameOnly=ClockOscillatorQuartz|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=ClockOscillatorQuartz.Footprint N|TableNameOnly=ClockOscillatorQuartz|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Connectors.Library Ref|TableNameOnly=Connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Connectors.Footprint L|TableNameOnly=Connectors|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Connectors.Footprint M|TableNameOnly=Connectors|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Connectors.Footprint N|TableNameOnly=Connectors|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Connectors.Description|TableNameOnly=Connectors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Connectors.PCB3D Ref|TableNameOnly=Connectors|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=CopperComponents.Comment|TableNameOnly=CopperComponents|FieldNameOnly=Comment|FieldType=0|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=CopperComponents.Library Ref|TableNameOnly=CopperComponents|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=CopperComponents.Footprint L|TableNameOnly=CopperComponents|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=CopperComponents.Footprint M|TableNameOnly=CopperComponents|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=CopperComponents.Footprint N|TableNameOnly=CopperComponents|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=CopperComponents.Description|TableNameOnly=CopperComponents|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Diodes.Description|TableNameOnly=Diodes|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Diodes.Library Ref|TableNameOnly=Diodes|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=Diodes.Footprint L|TableNameOnly=Diodes|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=Diodes.Footprint M|TableNameOnly=Diodes|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=Diodes.Footprint N|TableNameOnly=Diodes|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=ICs.Library Ref|TableNameOnly=ICs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=ICs.Footprint L|TableNameOnly=ICs|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=ICs.Footprint M|TableNameOnly=ICs|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=ICs.Footprint N|TableNameOnly=ICs|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=ICs.Description|TableNameOnly=ICs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Inductors.Library Ref|TableNameOnly=Inductors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=Inductors.Footprint L|TableNameOnly=Inductors|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Inductors.Footprint M|TableNameOnly=Inductors|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=Inductors.Footprint N|TableNameOnly=Inductors|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=Inductors.Description|TableNameOnly=Inductors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=MODULEs.Comment|TableNameOnly=MODULEs|FieldNameOnly=Comment|FieldType=0|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=MODULEs.Library Ref|TableNameOnly=MODULEs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=MODULEs.Footprint L|TableNameOnly=MODULEs|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=MODULEs.Footprint M|TableNameOnly=MODULEs|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=MODULEs.Footprint N|TableNameOnly=MODULEs|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=MODULEs.Description|TableNameOnly=MODULEs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=OptoComponents.Library Ref|TableNameOnly=OptoComponents|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=OptoComponents.Footprint L|TableNameOnly=OptoComponents|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap51]
+Options=FieldName=OptoComponents.Footprint M|TableNameOnly=OptoComponents|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=OptoComponents.Footprint N|TableNameOnly=OptoComponents|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=OptoComponents.Description|TableNameOnly=OptoComponents|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=OptoComponents.Comment|TableNameOnly=OptoComponents|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=Paste Errors.Description|TableNameOnly=Paste Errors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=Paste Errors.Library Ref|TableNameOnly=Paste Errors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap58]
+Options=FieldName=Resistors.Footprint N|TableNameOnly=Resistors|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=Resistors.Footprint L|TableNameOnly=Resistors|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
+Options=FieldName=Resistors.Footprint M|TableNameOnly=Resistors|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap61]
+Options=FieldName=Resistors.Description|TableNameOnly=Resistors|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap62]
+Options=FieldName=Switchs.Library Ref|TableNameOnly=Switchs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap63]
+Options=FieldName=Switchs.Comment|TableNameOnly=Switchs|FieldNameOnly=Comment|FieldType=0|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap64]
+Options=FieldName=Switchs.Footprint L|TableNameOnly=Switchs|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap65]
+Options=FieldName=Switchs.Footprint M|TableNameOnly=Switchs|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap66]
+Options=FieldName=Switchs.Footprint N|TableNameOnly=Switchs|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=Switchs.Description|TableNameOnly=Switchs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=TransMOSFET.Library Ref|TableNameOnly=TransMOSFET|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=TransMOSFET.Footprint L|TableNameOnly=TransMOSFET|FieldNameOnly=Footprint L|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=TransMOSFET.Footprint M|TableNameOnly=TransMOSFET|FieldNameOnly=Footprint M|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=TransMOSFET.Footprint N|TableNameOnly=TransMOSFET|FieldNameOnly=Footprint N|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=TransMOSFET.Description|TableNameOnly=TransMOSFET|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
