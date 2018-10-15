@@ -1,0 +1,20 @@
+For the the terminology applied to switches, consult http://en.wikipedia.org/wiki/Relay#Types_of_relay and http://en.wikipedia.org/wiki/Electrical_switch#Contact_arrangements
+
+Else we have defined these points :
+
+SW-{P¦M}{A¦B¦C¦D}X
+
+with :
+
+1) {Permanent¦Momentary} kind of contact
+2) X indicates the number of contacts
+3) A for "make" or "Normally-open" (NO) contacts
+   B for "break" or "Normally-closed" (NC) contacts
+   C for "Change-over", or "double-throw" or "transfer", contacts control two circuits: one normally-open contact and one normally-closed contact with a common terminal
+   D, same for C but when contact utilizes a "make before break" functionality
+
+For the contacts, the pin numbers are :
+
+NOx for Normally-Open x
+NCx for Normally-Close x
+COx for Common x
