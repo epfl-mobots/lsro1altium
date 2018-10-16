@@ -1,4 +1,4 @@
-Templates/History/
-Templates/__Previews/
+**/History/
+**/__Previews/
 *.PrjPCBStructure
 LSRO1Altium.ldb
