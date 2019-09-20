@@ -375,7 +375,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FYTMXYIG
 
 [Document21]
 DocumentPath=PcbLib\SOIC - SmallOutlineIntegratedCircuit.PcbLib
@@ -802,21 +802,17 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBQBQNCV
 
-[GeneratedDocument1]
-DocumentPath=Templates\PcbDocTemplate.PcbDoc.htm
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=Y:\LSRO1Altium\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Project_Name
-Value==Init Project_Name in ProjParam
-
-[Parameter2]
 Name=Organization_Name
 Value==Init Organization_Name in ProjParam
+
+[Parameter2]
+Name=Project_Name
+Value==Init Project_Name in ProjParam
 
 [Configuration1]
 Name=Default Configuration
